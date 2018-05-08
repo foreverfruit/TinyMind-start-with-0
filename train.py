@@ -13,7 +13,7 @@ import data
 import model as model
 from tqdm import tqdm
 
-n_epoch, batch_size = 10, 512
+n_epoch, batch_size = 10, 128
 
 trainset = data.TrainSet(eval=False)
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=batch_size, shuffle=True)

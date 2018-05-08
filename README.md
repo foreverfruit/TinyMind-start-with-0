@@ -1,3 +1,6 @@
+# 本代码出自：https://github.com/Link2Link/TinyMind-start-with-0.git
+# 感谢作者开源，提供学习的机会
+
 # TinyMind-start-with-0
 从零开始深度学习：TinyMind汉字书法识别
 
