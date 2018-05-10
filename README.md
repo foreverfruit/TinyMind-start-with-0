@@ -16,5 +16,13 @@ train.py 网络训练文件
 model.py 网络描述文件  
 test.py 最终测试结果生成文件
 
+## 依赖库
+numpy
+pytorch
+opencv-python
+PIL
+tqdm
+pandas
+
 
 该项目旨在示范使用pytorch进行深度学习的大体过程，网络结构及超参数都是随意给的，抛砖引玉，欢迎提问！

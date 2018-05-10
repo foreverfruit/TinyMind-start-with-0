@@ -1,6 +1,0 @@
-numpy
-pytorch
-opencv-python
-PIL
-tqdm
-pandas

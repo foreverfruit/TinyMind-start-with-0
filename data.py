@@ -22,7 +22,8 @@ img_size = (128, 128)
 def load_by_category(category_index):
     '''
     :param category_index:
-    :return: samples 一个
+    :return: samples 400*128*128（正常情况下每个训练类有400个图片，但我这里解压错了1个图片）
+             labels  400*100
     '''
     # 目录拼接
     path = trainpath + sep + categories[category_index]
@@ -62,7 +63,7 @@ def trans_data():
         # 将结果合并到最终结果集中
         all_samples = np.append(all_samples, data, axis=0)
         labels = np.append(labels, label, axis=0)
-    # 保存数据，all_samples - 100*
+    # 保存数据，all_samples - 40000*128*128，labels - 40000*100
     np.save('data.npy', all_samples)
     np.save('label.npy', labels)
 
